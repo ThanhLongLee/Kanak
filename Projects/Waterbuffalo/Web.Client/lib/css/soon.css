@@ -1,0 +1,24 @@
+﻿
+.bg-gradient-to-t {
+    background: linear-gradient(to bottom, #f86a01, #070c19); /* Vàng chuyển dần lên đen */
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.content-soon {
+    text-transform: none !important;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+soon-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}

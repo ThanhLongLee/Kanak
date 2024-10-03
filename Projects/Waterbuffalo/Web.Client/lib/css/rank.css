@@ -1,0 +1,53 @@
+﻿.title {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bg-gradient-to-t {
+    background: linear-gradient(to bottom, #f86a01,#000000); /* Vàng chuyển dần lên đen */
+}
+
+.gradient-background {
+    position: relative;
+    background: rgba(7, 12, 25, 1); /* Nền cố định màu đen đậm */
+    border: none;
+    z-index: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Thêm hiệu ứng shadow nhẹ để tăng chiều sâu */
+}
+
+/*gradient-background {
+    position: relative;
+    z-index: 0;*/ /* Đặt lớp nền ở phía sau nội dung */
+    /*border: none;
+}
+
+.gradient-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #282A2F;*/ /* Màu nền */
+    /*opacity: 0.5;*/ /* Đặt độ mờ cho nền */
+    /*z-index: -1;*/ /* Đặt lớp nền phía sau nội dung */  
+    /*border: none;
+    border-radius: 8px;
+}*/
+
+.content {
+    position: relative; /* Đặt nội dung lên trên nền */
+    z-index: 1; /* Đảm bảo nội dung được hiển thị trên lớp nền */
+}
+
+
+.username{
+    font-size: 8px;
+}
+img, span, div {
+    border: none !important;
+}
